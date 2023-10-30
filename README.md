@@ -6,9 +6,9 @@ This project involves creating a weather application using Next.js, Axios for AP
 ## Project Timeline
 
 ### Week 1
-- [ ] Create a new branch from the main branch.
+- [ ] Create a new branch from the main branch. E.g *_caleb-weather-app_*.
 - [ ] Research and select a free weather API.
-- [ ] Set up the project structure in Next.js.
+- [ ] Set up the project structure in Next.js (preferably pages setup).
 - [ ] Research and compile a list of requirements for the weather app.
 - [ ] Research how to create requirement gathering documents and use cases.
 
