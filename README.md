@@ -1,34 +1,40 @@
-# Weather App Project README
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Project Overview
-This project involves creating a weather application using Next.js, Axios for API requests, and implementing a UI design using Figma. The project will also include creating UML diagrams and following requirement gathering and use case documentation.
+## Getting Started
 
-## Project Timeline
+First, run the development server:
 
-### Week 1
-- [ ] Create a new branch from the main branch. E.g *_caleb-weather-app_*.
-- [ ] Research and select a free weather API.
-- [ ] Set up the project structure in Next.js (preferably pages setup).
-- [ ] Research and compile a list of requirements for the weather app.
-- [ ] Research how to create requirement gathering documents and use cases.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### Week 2
-- [ ] Start creating a Requirements Gathering Document.
-- [ ] Continue work on the Requirements Gathering Document.
-- [ ] Create a basic UML diagram for the project.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Week 3
-- [ ] Begin designing the user interface using Figma.
-- [ ] Finalize the Requirements Gathering Document.
-- [ ] Complete the UML diagrams.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-### Week 4
-- [ ] Finish designing the UI in Figma.
-- [ ] Start implementing the code using Next.js and Axios.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-## Recommended Weather API
-For this project, I recommend using the OpenWeatherMap API (https://openweathermap.org/). It offers free access to weather data and is widely used in various weather applications.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Conclusion
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Remember to maintain regular progress and collaborate with your supervisor as necessary and also request for regular reviews. Good luck!
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
