@@ -86,14 +86,157 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-
+  font-size: 18px;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap:2rem;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.search_container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width:100%;
+}
+
+.search_container input {
+  width:200px;
+  max-width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+
+.search_container button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+.current_day_viewer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width:100%;
+  height:250px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.icon_view {
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+
+}
+.day_icon{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 200px;
+ height:200px;
+ border:1px solid;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+}
+
+.location_info_container {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  flex:2;
+  padding:10px;
+}
+.location_info_container .location_name_header{
+  width:100%;
+  padding:10px;
+  background-color: grey;
+  color:#fff;
+  border-radius: 5px;
+}
+.current_location_info{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:1rem;
+}
+
+
+.location_name_header h4 {
+  margin: 0;
+}
+
+.current_location_info p {
+  margin: 5px 0;
+}
+
+.next_forecast_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border:1px solid;
+  border-radius: 5px;
+  width:100%;
+  overflow: hidden;
+  padding:"20px";
+
+}
+
+.next_forecast_container{
+  display:flex;
+  gap:1rem;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:30px;
+}
+
+.day {
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border:1px solid;
+  width: 100px;
+  height:100px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.weather_text {
+  background-color: gray;
+  color:white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 
 @media (prefers-color-scheme: dark) {
   html {

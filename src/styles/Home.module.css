@@ -1,9 +1,11 @@
+
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 6v;
   min-height: 100vh;
 }
 
@@ -128,18 +130,18 @@
 /* Mobile */
 @media (max-width: 700px) {
   .content {
-    padding: 4rem;
+    padding: 4vw;
   }
 
   .grid {
     grid-template-columns: 1fr;
-    margin-bottom: 120px;
-    max-width: 320px;
+    margin-bottom: 10vw;
+    max-width: 90vw;
     text-align: center;
   }
 
   .card {
-    padding: 1rem 2.5rem;
+    padding: 4vw  6vw;
   }
 
   .card h2 {
@@ -147,16 +149,16 @@
   }
 
   .center {
-    padding: 8rem 0 6rem;
+    padding: 8vw 0 6vw;
   }
 
   .center::before {
     transform: none;
-    height: 300px;
+    height: 30vw;
   }
 
   .description {
-    font-size: 0.8rem;
+    font-size: 3vw;
   }
 
   .description a {
@@ -205,7 +207,7 @@
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
